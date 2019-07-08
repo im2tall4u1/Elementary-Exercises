@@ -1,0 +1,8 @@
+player_name = input("Hello! What is your name? Please enter it. ")
+if player_name == "Alice":
+    print("Greetings, " + player_name + "!")
+elif player_name == "Bob":
+    print("Greetings, " + player_name + "!")
+else:
+    print("Umm, who are you?")
+
