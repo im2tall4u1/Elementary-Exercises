@@ -1,0 +1,18 @@
+number = int(input("Enter a number here. "))
+decision = input("Thank you! Now would you like to add or multiply this number? ")
+
+def add_function():
+
+    print(sum(range(1, number)))
+
+def multiply_function():
+
+    print(1 * number)
+
+if decision == "multiply":
+
+    multiply_function()
+
+if decision == "add":
+
+    add_function()
