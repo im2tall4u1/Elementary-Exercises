@@ -1,0 +1,8 @@
+n = int(input("Enter a number and I will print the sum of the numbers 1 to n. "))
+the_sum = (sum(range(1,n)))
+if the_sum % 3 == 0:
+    print(the_sum)
+elif the_sum % 5 == 0:
+    print(the_sum)
+else:
+    print("This number is not eligible to be displayed")
