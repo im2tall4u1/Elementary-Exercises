@@ -1,0 +1,4 @@
+years = range(1, 2050)
+for y in years:
+    if y % 4 == 0:
+        print(y)
