@@ -1,0 +1,35 @@
+my_arr = [1,2,3,4,5,6,7,8,9,10,20,30,40,50]
+
+def my_sum_func(my_arr):
+    total = 0
+    for x in my_arr:
+        total += x
+    print (total)
+
+my_sum_func(my_arr)
+
+def my_avg_func(my_arr):
+    sum = 0
+    for x in my_arr:
+        sum += x
+    print(sum/len(my_arr))
+
+my_avg_func(my_arr)
+
+def my_max_functon(my_arr):
+    max = my_arr[0]
+    for x in my_arr:
+        if x > max:
+            max = x
+    print(max)
+
+my_max_functon(my_arr)
+
+def my_min_function(my_arr):
+    min = my_arr[0]
+    for x in my_arr:
+        if x < min:
+            min = x
+    print(min)
+
+my_min_function(my_arr)
